@@ -101,6 +101,12 @@ const newStudent = {
 
 console.log(newStudent);
 
+// PUSHO il nuovo studente dentro l'array creato precedentemente
+
+studentArray.push(newStudent);
+console.log(studentArray);
+
+
 
 
 
