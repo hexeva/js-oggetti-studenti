@@ -22,10 +22,38 @@ console.log(studentInfo['eta']);
 //2---- Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
 for (let key in studentInfo){
-    // console.log(key);
-    console.log(studentInfo);
+    console.log(key + ':' + studentInfo[key]);
+    // console.log( studentInfo[key]);
 };
 
 
+// Creare un array di oggetti di studenti.
+
+
+const studentArray = [
+
+    {
+        nome: 'Cinzia',
+        cognome: 'Bianchi',
+        età: 30
+    },
+
+    {
+        nome: 'Ettorino',
+        cognome: 'Rossi',
+        età: 27
+    },
+
+    {
+        nome: 'Gino',
+        cognome: 'Verdi',
+        età: 20 
+    },
+
+
+
+];
+
+console.log(studentArray);
 
 
