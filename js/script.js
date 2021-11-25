@@ -92,11 +92,13 @@ const ageRequest = parseInt(prompt('inserisci età'));
 
 // aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
+
 const newStudent = {
+    nome:nameRequest,
+    cognome:surnameRequest,
+    eta:ageRequest
 };
-newStudent.nome = nameRequest;
-newStudent.cognome = surnameRequest;
-newStudent.eta = ageRequest;
+
 console.log(newStudent);
 
 
