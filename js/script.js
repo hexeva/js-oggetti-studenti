@@ -15,11 +15,11 @@ const studentInfo ={
 
 
 // mi restituisce tutto l'object con chiave e valore
-// console.log(studentInfo);
+//  console.log(studentInfo);
 // mi restituisce tramite dot-notation il valore (in questo caso, di età cioè il numero 42)
-// console.log(studentInfo.eta);
+//  console.log(studentInfo.eta);
 // mi restituisce tramite braket-notation il valore (in questo caso, di età cioè il numero 42)
-// console.log(studentInfo['eta']);
+//  console.log(studentInfo['eta']);
 
 //2---- Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
