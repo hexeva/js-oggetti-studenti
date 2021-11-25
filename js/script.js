@@ -94,9 +94,10 @@ const ageRequest = parseInt(prompt('inserisci età'));
 
 const newStudent = {
 };
-
-newStudent.[ageRequest];
-
+newStudent.nome = nameRequest;
+newStudent.cognome = surnameRequest;
+newStudent.eta = ageRequest;
+console.log(newStudent);
 
 
 
