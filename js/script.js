@@ -25,7 +25,7 @@ const studentInfo ={
 
 for (let key in studentInfo){
     // console.log(key + ':' + studentInfo[key]);
-    // console.log( studentInfo[key]);
+    //  console.log( studentInfo[key]);
 };
 
 
@@ -56,15 +56,16 @@ const studentArray = [
 
 ];
 
-// Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
+// 3--- Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
 // scorro tutto l'array studenti con un ciclo for
 
 for (let i = 0; i < studentArray.length; i++){
     
-    // mi salvo in una variabile object
+    // mi salvo in una variabile gli object
     let studentObject = studentArray[i];
-    console.log(studentObject);
+    // console.log(studentObject);
+
     // stampare per ognuno di essi, nome e cognome con un ciclo for in
 
     for (let key in studentObject){
@@ -76,6 +77,30 @@ for (let i = 0; i < studentArray.length; i++){
     }
     
 };
+
+//4--- Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
+
+// preparo i prompt per l'utente
+
+const nameRequest = prompt('inserisci un nome');
+// console.log(nameRequest);
+const  surnameRequest = prompt('inserisci  il cognome');
+// console.log(surnameRequest);
+const ageRequest = parseInt(prompt('inserisci età'));
+// console.log(ageRequest);
+
+
+// aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
+
+const newStudent = {
+    stronzo : 'stronzo'
+};
+
+for(let key in newStudent){
+    console.log(newStudent[key]);
+}
+
+
 
 
 
